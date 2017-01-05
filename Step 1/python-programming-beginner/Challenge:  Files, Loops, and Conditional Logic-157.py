@@ -15,7 +15,7 @@ first_five = data_list[:5]
 f = open('dq_unisex_names.csv', 'r')
 data = f.read()
 data_list = data.split('\n')
-string_data = []
+string_data = [] 
 for i in data_list:
     comma_list = i.split(',')
     string_data.append(comma_list)
